@@ -1,43 +1,29 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Mario Fustes Montero
+title: Software Engineer
+email: mariodam123@gmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: (+34) 627239131
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
+website: https://www.linkedin.com/in/mario-fustes-montero-4547b819b/
+# website_title: Linkedin (Linedin title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+github_username:  Mariopenguin
+stackoverflow_username: "mariopenguin"
+linkedin_username: Mario Fustes Montero
 
-# Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -50,60 +36,106 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+about_profile_image: images/mario.jpeg
+about_content: | 
+  Hello! I'm a Junior Software engineer specialized in computer science with passion for developing innovative applications. Well-versed in technology and
+  writing code in order to create reliable systems. I'm also interested in cloud development and I would like to work with multidisciplinary teams to keep improving my 
+  skills thanks to the teamwork. 
+# You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+#  - Lists
+#  - Tables
+#  - <a href="google.com">Links</a>
+#  - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
+        title: Metrica Consulting
+        sub_title: Backend Java developer
+        caption: Aphril 2018 - July 2018
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          After I completed my professional formation in DAM (development of multi-platforms applications) I made the practices in this comany.
+          During this three months, I worked in a multi-disciplinary team, developing microservices-based applications with Spring (Java framework).   
+  - title: 
+    layout: list
+    content:
+      - layout: right
+        title: Fiscalges Alternative
+        sub_title: Mobile Developer
+        caption: July 2019 - February 2020
+        description: | # this will include new lines to allow paragraphs
+          In this company I learned how to develop and deploy multi-platform apps with Xamarin forms. Thanks to this I could focus on acquiring good practises and architectonical patterns like MVC.
+          Moreover, I expanded my knowledge in the development of APIs REST and It´s communication with Google Cloud Services .
+
+  - title: 
+    layout: list
+    content:
+      - layout: right
+        title: QTS solutions
+        sub_title: Web developer
+        caption: July 2020- September 2020
+        description: | # this will include new lines to allow paragraphs
+          QTS solutions is a company that focuses on providing services to the public sector in Spain. I started my job there covering a 
+          temporary leave, so I mainly did manteinance tasks for the website like finding bugs or performance improvements.  
+  
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
+      - layout: top-left
+        title: Gabriel García Márquez
+        sub_title: High School  
+        caption: 2015-2016
+  - title: 
+    layout: list
+    content:
+      - layout: top-left
+        title: Técnico superior en Desarrollo de Aplicaciones Multiplataforma
+        caption: 2016-2018 
+        description: Multi-platform app development focused on the learning of languages with Object-Oriented paradigm like Java and C#.
+          
+  - title: 
+    layout: list
+    content:
+      - layout: center
+        title: Universidad Politécnica de Madrid
+        sub_title: Software Engineering  
+        caption: 2018-2022
+        description: In this degree, I specialized in computer science, project management and microservice-oriented architectures. Due to this subjects
+          and other ones like Algorithm and Complexity, I could improve my capacity to solve real world problems efficiently considering several solutions of the 
+          same problem.
+
+  - title: Skills # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+    - layout: center
+      title: Programming languages / Frameworks
+      description: |
+        • Microservices development and orchestration with Docker and Kubernetes.
+  
+        • Practise with SQL and NoSQL databases (MySQL and MongoDB).
+
+        • Data preprocessing with Scikit Learn and Pandas.
+
+        • Experience training ML models with Sklearn.
+
+        • Experience training DL models with the transformers library (for Natural Language Processing purposes).
+ 
+        • APIs rest development.
+
+        • Development of Mobile Apps with Android and XamarinForms
+
+        • Markdown languages like HTML/CSS
+
+        • Experience with Spring Framework (Java).
+
+        • Knowledge about architectural patterns.
+
+        • Continous Integration continous delivery (CI/CD).
+
+
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
