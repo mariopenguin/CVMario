@@ -51,17 +51,17 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: right
+      - layout: left
         title: Metrica Consulting
         sub_title: Backend Java developer
         caption: Aphril 2018 - July 2018
         description: | # this will include new lines to allow paragraphs
-          After I completed my professional formation in DAM (development of multi-platforms applications) I made the practices in this comany.
+          After I completed my professional formation in DAM (development of multi-platforms applications) I made the practices in this company.
           During this three months, I worked in a multi-disciplinary team, developing microservices-based applications with Spring (Java framework).   
   - title: 
     layout: list
     content:
-      - layout: right
+      - layout: left
         title: Fiscalges Alternative
         sub_title: Mobile Developer
         caption: July 2019 - February 2020
@@ -72,7 +72,7 @@ content:
   - title: 
     layout: list
     content:
-      - layout: right
+      - layout: left
         title: QTS solutions
         sub_title: Web developer
         caption: July 2020- September 2020
@@ -83,14 +83,14 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-left
+      - layout: left
         title: Gabriel García Márquez
         sub_title: High School  
         caption: 2015-2016
   - title: 
     layout: list
     content:
-      - layout: top-left
+      - layout: left
         title: Técnico superior en Desarrollo de Aplicaciones Multiplataforma
         caption: 2016-2018 
         description: Multi-platform app development focused on the learning of languages with Object-Oriented paradigm like Java and C#.
@@ -98,7 +98,7 @@ content:
   - title: 
     layout: list
     content:
-      - layout: center
+      - layout: left
         title: Universidad Politécnica de Madrid
         sub_title: Software Engineering  
         caption: 2018-2022
@@ -109,39 +109,41 @@ content:
   - title: Skills # Title for the section
     layout: list # Type of content section (list/text)
     content:
-    - layout: center
+    - layout: left
       title: Programming languages / Frameworks
       description: |
-        • Microservices development and orchestration with Docker and Kubernetes.
+        • Microservices development and orchestration with **Docker** and **Kubernetes**.
   
-        • Practise with SQL and NoSQL databases (MySQL and MongoDB).
+        • Practise with SQL and NoSQL databases (**MySQL** and **MongoDB**).
 
-        • Data preprocessing with Scikit Learn and Pandas.
+        • Data preprocessing with **Scikit Learn** and **Pandas**.
 
-        • Experience training ML models with Sklearn.
+        • Experience training ML models with **Sklearn**.
 
-        • Experience training DL models with the transformers library (for Natural Language Processing purposes).
+        • Experience training DL models with the **transformers** library (for Natural Language Processing purposes).
  
-        • APIs rest development.
+        • **APIs rest** development.
 
-        • Development of Mobile Apps with Android and XamarinForms
+        • Development of Mobile Apps with Android and Xamarin Forms
 
         • Markdown languages like HTML/CSS
 
-        • Experience with Spring Framework (Java).
+        • Experience with **Spring** Framework (Java).
 
         • Knowledge about architectural patterns.
 
-        • Continous Integration continous delivery (CI/CD).
+        • Continous Integration continous delivery **(CI/CD)**.
 
 
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      
+      Throghout my proffesional career I have specialized in the area of Artifial Intelligence and Software Engineering. On the other hand, I am 
+      interested in learning good practices and design patterns in order to guarantee the quality of the software.
+      I am also interested in **teamworking** with multidisciplinary teams that allow me to continue learning the rest of the areas for improving my
+      proffesional skills.
 
 # Footer
 footer_show_references: true
